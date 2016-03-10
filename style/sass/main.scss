@@ -1,0 +1,92 @@
+html, body, div{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+
+	margin: 15px 0;
+
+	input{
+		display: inline-block;
+	}
+
+	div{
+		display: inline-block;
+
+		.input-group, .radio-group, .dropdown{
+			margin-bottom: 15px;				
+		}
+
+		.radio-group{
+			display: block;
+		}
+
+		&#panel{
+			padding:15px 0px 0px 10px;
+
+			> div{
+				#titleOne{
+					color: gray;
+					font-size: 1.9em;
+					margin: 0px 0px 0px 5px;
+					font-weight: 700;
+					line-height: 0.7;
+				}
+
+				#titleTwo{
+					color: lightgray;
+					font-size: 1.25em;
+					margin: 0px 0px 0px 5px;
+
+				}
+				
+				> img{
+					width: 175px;
+				}				
+			}		
+
+			> span{
+				vertical-align: top;
+				top: 5px;
+			}	
+		}
+		&#main{
+			background-color: light-grey;
+
+			hr{
+				margin: 0px;
+			}
+
+			h4{
+				color: #002A92;	
+				margin: 0px;
+				font-weight: bold;			
+			}
+
+			h2{
+				margin-bottom: 25px;
+			}
+
+			hr{
+				margin-bottom: 10px;
+			}
+
+			.input-group{
+
+				&#mailTelf{
+					width: 100%;
+
+					input{
+						width: calc(50% - 15px);
+
+						&:first-child{
+							margin-right: 30px;
+						}
+					}
+				}
+			}
+		}
+	}	
+}

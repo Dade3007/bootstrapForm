@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BancoPopular-e</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href=".\bower_components\bootstrap\dist\css\bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href=".\bower_components\bootstrap\dist\css\bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href=".\style\css\main.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src=".\bower_components\jquery\dist\jquery.min.js"></script>
+	<script src=".\bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./bower_components/bootstrap-select/dist/css/bootstrap-select.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./bower_components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+
+</head>
+<body>
+	<div id="panel" class="col-md-2">
+		<span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+		<div>
+			<img src="./img/bancopopular-e.png" alt="BancoPopular-e">
+			<h2 id="titleOne">Service Desk</h2>
+			<h3 id="titleTwo">Incidents & Requests</h3>
+		</div>
+	</div>
+	<div id="main" class="col-md-8">
+		<h2>Crear Incidencia</h2>
+		
+		<form>
+			<h4>Solicitante</h4>
+			<hr/>
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Solicitante" aria-describedby="basic-addon2">
+			  <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+			</div>
+
+			<div class="input-group" id="mailTelf">
+			  <input type="text" class="form-control" placeholder="teléfono" aria-describedby="basic-addon2">
+	  		  <input type="text" class="form-control" placeholder="email" aria-describedby="basic-addon2" readonly>
+			</div>
+
+			
+
+			<h4>Edificio</h4>
+			<hr/>
+
+			<div class="radio-group">
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Moraleja
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Other
+				</label>			
+			</div>
+
+			<div class="dropdown">
+			
+			  <select class="selectpicker">
+			    <option>Planta</option>
+			  	<option>0A</option>
+			  	<option>0B</option>
+			  	<option>0C</option>
+			  	<option>0D</option>
+			  	<option>1A</option>
+			  	<option>1B</option>
+			  	<option>1C</option>
+			  	<option>1D</option>
+			  	<option>2A</option>
+			  	<option>2B</option>
+			  	<option>2C</option>
+			  	<option>2D</option>
+			  	<option>3A</option>
+			  	<option>3B</option>			  	
+			  	<option>3C</option>			
+			  </select>
+			 
+			</div>
+
+
+			<h4>Edificio</h4>	
+			<hr/>
+		</form>		
+
+	</div>
+	<div class="col-md-2"></div>
+</body>
+</html>
